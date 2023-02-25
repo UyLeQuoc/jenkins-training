@@ -17,7 +17,7 @@ node {
       }
     }
     stage('Notify') {
-      sh "echo Pipeline is finished"
+      sh "echo Pipeline is finished and Hello World"
     }
   }
 }
